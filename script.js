@@ -90,7 +90,7 @@ function batalha(nomeInimigo, vidaInimigo, danoInimigo, defesaInimigo) {
                 alert("💥 O inimigo atacou!\nVocê recebeu " + danoRecebido + " de dano.\nSua vida: " + vida);
 
             } else {
-                defesaTurnoInimigo = 4;
+                defesaTurnoInimigo += 4;
                 alert("🛡️ O inimigo se defendeu e aumentou a defesa!");
             }
         }
