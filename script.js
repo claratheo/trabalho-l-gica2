@@ -111,12 +111,12 @@ function batalha(nomeInimigo, vidaInimigo, danoInimigo, defesaInimigo) {
 }
 
 // ===== FASE 1 =====
-if (!batalha("Goblin", 50, 10, 5)) {
+if (!batalha("Goblin", 50, 15, 5)) {
     throw new Error("Game Over");
 }
 
 // ===== FASE 2 =====
-if (!batalha("Guerreiro Sombrio", 80, 15, 8)) {
+if (!batalha("Guerreiro Sombrio", 80, 20, 8)) {
     throw new Error("Game Over");
 }
 
@@ -152,7 +152,7 @@ else if (opcaoLoja == "3" && pontos >= 25) {
 // ===== BOSS FINAL =====
 alert("🔥 Você encontrou o líder inimigo!");
 
-if (!batalha("Líder Supremo", 150, 20, 10)) {
+if (!batalha("Líder Supremo", 150, 30, 10)) {
     throw new Error("Game Over");
 }
 
